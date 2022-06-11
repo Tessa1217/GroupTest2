@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import co.edu.practice.common.Command;
 import co.edu.practice.home.command.Home;
 import co.edu.practice.ytest.command.YTest;
+import co.edu.practice.jong.command.jongPage;
 
 @WebServlet("*.do")
 public class FrontController extends HttpServlet {
@@ -29,6 +30,7 @@ public class FrontController extends HttpServlet {
 	public void init(ServletConfig config) throws ServletException {
 		map.put("/home.do", new Home());
 		map.put("/ytest.do", new YTest());
+		map.put("/jongPage.do", new jongPage());
 	}
 
 	@Override
