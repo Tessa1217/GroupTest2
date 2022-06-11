@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.edu.practice.jong.service.JongMapper">
+
+<select id="selectAllJong" resultType="co.edu.practice.jong.vo.JongVO">
+SELECT * FROM jongtable ORDER BY id DESC
+</select>
+
+
+</mapper>

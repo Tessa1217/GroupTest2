@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.edu.practice.ytest.service.YTestMapper">
+	<select id="yTestSelectList" resultType = "co.edu.practice.ytest.vo.YTestVO">
+		SELECT * FROM YTEST ORDER BY 1 DESC
+	</select>
+</mapper>
