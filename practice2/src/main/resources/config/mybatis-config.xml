@@ -19,6 +19,6 @@
     </environment>
   </environments>
   <mappers>
-    <mapper resource=""/>
+    <mapper resource="co/edu/practice/ytest/service/ytest-map.xml"/>
   </mappers>
 </configuration>
