@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import co.edu.practice.chan.command.chan;
 import co.edu.practice.common.Command;
+import co.edu.practice.geun.command.GeunPractice;
 import co.edu.practice.home.command.Home;
 import co.edu.practice.ytest.command.YTest;
 import co.edu.practice.jong.command.jongPage;
@@ -33,6 +34,8 @@ public class FrontController extends HttpServlet {
 		map.put("/ytest.do", new YTest());
 		map.put("/jongPage.do", new jongPage());
 		map.put("/chan.do", new chan());
+		map.put("/GeunPractice.do", new GeunPractice());
+
 	}
 
 	@Override

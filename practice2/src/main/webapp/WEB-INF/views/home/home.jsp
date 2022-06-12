@@ -10,6 +10,8 @@
 	<div>
 		<h1>Body 영역입니다.</h1>
 		<a href="jongPage.do">종혁이 페이지로 가즈아!!</a>
+		<hr>
+		<a href = "GeunPractice.do">근형 연습</a>
 	</div>
 </body>
 </html>
