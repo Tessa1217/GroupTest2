@@ -21,5 +21,7 @@
   <mappers>
     <mapper resource="co/edu/practice/ytest/service/ytest-map.xml"/>
     <mapper resource="co/edu/practice/jong/service/jong-mapper.xml"/>
+    <mapper resource="co/edu/practice/chan/service/chan-mapper.xml"/>
+    <mapper resource="co/edu/practice/geun/service/Geun-mapper.xml"/>
   </mappers>
 </configuration>
