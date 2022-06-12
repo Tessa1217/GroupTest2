@@ -6,9 +6,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+	#bodycontainer {
+		height: 700px;
+		background: #fff;
+	}
+</style>
 </head>
 <body>
-	<div>
+	<div id="bodycontainer">	
 		<table>
 			<caption>우리 조</caption>
 			<thead>
